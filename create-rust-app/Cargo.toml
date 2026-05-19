@@ -47,8 +47,8 @@ libsqlite3-sys = { version = "0.26.0", optional = true, features = ["bundled"] }
 
 # plugin_auth
 rust-argon2 = { optional = true, version = "2.1" }
-rand = { optional = true, version = "0.8.5" }
-jsonwebtoken = { optional = true, version = "9.3" }
+rand = { optional = true, version = "0.10.1" }
+jsonwebtoken = { optional = true, version = "10.4" }
 tsync = { optional = true, version = "2.1" }
 chrono = { optional = true, version = "0.4.38", default-features = false, features = [
   "clock",
@@ -71,7 +71,7 @@ reqwest = { optional = true, version = "0.11.27" }
 # aws-config = { optional = true, version = "0.14.0" }
 aws-types = { optional = true, version = "0.8.0" }
 # aws-endpoint = { optional = true, version = "0.14.0" }
-aws-sdk-s3 = { optional = true, version = "0.8.0" }
+aws-sdk-s3 = { optional = true, version = "1.132.0" }
 http = { optional = true, version = "0.2.12" }
 diesel_derives = { optional = true, version = "2.1" }
 uuid = { optional = true, version = "1.8", features = ["v4", "serde"] }
